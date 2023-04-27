@@ -24,7 +24,7 @@ const Main = () => {
             </div>
         </div>
         <div className="right">
-            <Canvas>
+            <Canvas className='Sphere'>
                 <OrbitControls enableZoom={false} />
                 <ambientLight intensity={1} />
                 <directionalLight position={[3,2,1]} />

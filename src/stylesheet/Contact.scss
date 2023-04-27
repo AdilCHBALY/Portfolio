@@ -8,6 +8,12 @@
         height: 100vh;
         display: flex;
         justify-content: space-between;
+
+        @media only screen and (max-width : 768px){
+            width: 100%;
+            flex-direction: column-reverse;
+            padding: 20px;
+        }
         .left{
             flex: 1;
             display: flex;
