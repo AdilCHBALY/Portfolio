@@ -9,7 +9,7 @@ const Contact = () => {
   const [success,setSuccess] = useState(false)
 
   const handleSubmit=(e)=>{
-    // e.preventDefault()
+    e.preventDefault()
 
     emailjs.sendForm('service_333wkug', 'template_3la09gn', form.current, '7LXOsgGV9WJvpr8LS')
       .then((result) => {
