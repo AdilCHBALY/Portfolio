@@ -1,0 +1,56 @@
+.Contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    .Content{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: space-between;
+        .left{
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            form{
+                width: 500px;
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+
+                .form__title{
+                    font-size: 50px;
+                }
+
+                input,textarea{
+                    padding: 20px;
+                    background-color: #e8e6e6;
+                    border: none;
+                    border-radius: 5px;
+                }
+                button{
+                    background-color: $main_color;
+                    color: white;
+                    border: none;
+                    font-weight: bold;
+                    cursor: pointer;
+                    border-radius: 5px;
+                }
+                
+            }
+        }
+        .right{
+            flex: 1;
+            position: relative;
+
+            .earth{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+            }
+        }
+    }
+}

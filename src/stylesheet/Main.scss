@@ -1,0 +1,38 @@
+@import './Variables.scss';
+@import './Navbar.scss';
+@import './Hero.scss';
+@import './animation.scss';
+@import './Whoami.scss';
+@import './Projects.scss';
+@import './Certification.scss';
+@import './Contact.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $bg_color;
+    font-family: $font;
+    
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.App{
+    height: 100vh;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    color: black;
+    scroll-behavior: smooth;
+}
+
+section{
+    height: 100vh;
+    scroll-snap-align: center;
+    color: black;
+}
