@@ -18,8 +18,8 @@ const Main = () => {
             <div className="followme">
                 Follow Me : 
                 <div className="socials">
-                    <LinkedIn className='social' />
-                    <GitHub className='social' />
+                    <a href="https://www.linkedin.com/in/adil-chbaly-17249a255/" target='_blank' rel='noreferrer'><LinkedIn className='social' /></a>
+                    <a href="https://github.com/AdilCHBALY" target='_blank' rel='noreferrer'><GitHub className='social' /></a>
                 </div>
             </div>
         </div>

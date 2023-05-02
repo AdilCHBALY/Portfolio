@@ -28,9 +28,9 @@ const Contact = () => {
             <div className="form__title">
               Contact Me
             </div>
-            <input type="text" placeholder='Name' name='name'/>
-            <input type="text" placeholder='Email' name='Email'/>
-            <textarea name="message" id="" cols="30" rows="10" placeholder='Write Something' />
+            <input type="text" placeholder='Name' name='name' required/>
+            <input type="text" placeholder='Email' name='Email'required/>
+            <textarea name="message" id="" cols="30" rows="10" placeholder='Write Something' required/>
             {success && "Your message has been sent! , We'll get back to you soon :)"}
             <button><ForwardToInboxIcon /></button>
           </form>
